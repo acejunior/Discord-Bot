@@ -30,7 +30,7 @@ async function fetchPriceEmbed(client) {
           "text": "Shield Price Bot - Values based on USD."
         },
         "thumbnail": {
-          "url": "https://i.imgur.com/cAjC1Pz.png"
+          "url": "https://imgur.com/a/L9qRhS3"
         },
         "author": {
           "name": "Shield Price Bot",
