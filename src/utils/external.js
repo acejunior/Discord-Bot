@@ -45,7 +45,7 @@ async function getBurnedTotal() {
   try {
     let response = await axios.get(`https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=${contractAddress}&address=0x0000000000000000000000000000000000000001&tag=latest&apikey=${bscScanApiKey}`);
     let value = response.data['result']
-    value = (value / 1_000_000_000_000_000_000_000).toFixed(4)
+    value = (value / 1_000_000_000_000).toFixed(4)
     return value
   } catch (err) {
     console.log(err)

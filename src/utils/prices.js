@@ -27,14 +27,14 @@ async function fetchPriceEmbed(client) {
         "color": 2029249,
         "timestamp": timeStamp,
         "footer": {
-          "text": "SafeMoon Price Bot - Values based on USD."
+          "text": "Shield Price Bot - Values based on USD."
         },
         "thumbnail": {
           "url": "https://i.imgur.com/cAjC1Pz.png"
         },
         "author": {
-          "name": "SafeMoon Price Bot",
-          "url": "https://safemoon.net"
+          "name": "Shield Price Bot",
+          "url": "https://www.shieldnetwork.io"
         },
         "fields": [
           {
@@ -54,7 +54,7 @@ async function fetchPriceEmbed(client) {
           },
           {
             "name": "🏦 Total Supply",
-            "value": "1000T",
+            "value": "1T",
             "inline": true
           },
           {

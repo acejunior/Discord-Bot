@@ -6,7 +6,7 @@ const { fetchPriceEmbed } = require('../utils/prices')
 module.exports = ({
   meta: {
     name: 'pricewatch',
-    description: 'Set up the price watcher for SafeMoon',
+    description: 'Set up the price watcher for Shield',
     commands: ['pricewatch', 'pw'],
     cooldownTime: 30,
     permissions: ['ADMINISTRATOR']
@@ -39,6 +39,6 @@ module.exports = ({
     })
 
     await targetChannel.send(await fetchPriceEmbed(client))
-    return await channel.send(`:white_check_mark: Successfully set ${targetChannel} as the SafeMoon Price Watch channel.`)
+    return await channel.send(`:white_check_mark: Successfully set ${targetChannel} as the Shield Price Watch channel.`)
   }
 })
